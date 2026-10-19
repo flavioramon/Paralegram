@@ -1,36 +1,68 @@
 # Paralegram
 Jogo educacional de quebra-cabeças que combina programação visual, raciocínio lógico e conceitos de computação paralela em um ambiente de logística portuária.
+
 Índice
+
 1. Introdução
+
 1.1. Resumo da história
+
 1.2. Visão geral da jogabilidade
+
 1.3. Gênero, semelhanças e diferenças
+
 1.4. Público-alvo
+
 1.5. Atrativos do jogo
+
 1.6. Fluxo do jogo
+
 2. Interface e interação
+
 2.1. Entradas
+
 2.2. Saídas
+
 3. Mecânica do jogo
+
 3.1. Mecânica básica
+
 3.2. Progressão do jogo
+
 3.3. Condições de vitória
+
 4. Detalhamento técnico
+
 4.1. Hardware
+
 4.2. Software
+
 4.3. Engine
+
 5. Arte e design
+
 5.1. Resumo do estilo
+
 5.2. Principais referências
+
 5.3. Concept art e sprites
+
 5.4. HUD
+
 5.5. Efeitos visuais
+
 5.6. Animações
+
+---
+
 1. Introdução
+
 
 Este documento apresenta os aspectos técnicos, artísticos e narrativos do jogo Paralegram, incluindo seu enredo, suas mecânicas, seus objetivos, a jogabilidade e as ferramentas utilizadas no desenvolvimento.
 
 Essas informações servem como referência para orientar as etapas de produção e desenvolvimento do jogo.
+
+---
 
 1.1. Resumo da história
 
@@ -44,6 +76,8 @@ Organização dos contêineres: no porto, operadores utilizam empilhadeiras para
 Carregamento dos navios: os contêineres são classificados no pátio conforme seus destinos e carregados nos navios atracados no cais por meio de guindastes portuários.
 
 Durante as operações, o jogador enfrenta desafios de lógica e quebra-cabeças que exigem planejamento estratégico para administrar os recursos, o espaço e o tempo disponíveis.
+
+---
 
 1.2. Visão geral da jogabilidade
 
@@ -63,6 +97,8 @@ A interface de quebra-cabeças tem como referência o jogo Dungeon Class.
 
 Exemplo de interface de quebra-cabeças inspirado em Dungeon Class.
 
+---
+
 1.3. Gênero, semelhanças e diferenças
 
 Paralegram é um jogo do gênero puzzle, com perspectiva top-down (visão de cima), ambientado em um centro de distribuição e em instalações portuárias.
@@ -75,6 +111,8 @@ Referência de perspectiva e jogabilidade top-down.
 
 O jogo combina exploração de cenários, interação com objetos e resolução de problemas com programação visual e conceitos de computação paralela.
 
+---
+
 1.4. Público-alvo
 
 O jogo é destinado a um público amplo, desde adolescentes até adultos, incluindo pessoas que não jogam videogames regularmente.
@@ -83,55 +121,92 @@ O público prioritário são estudantes de graduação que estejam cursando disc
 
 Personas
 
-Persona 1 — Thiago
+**Persona 1 — Thiago**
 
 Idade: 28 anos
+
 Ocupação: estudante do Ensino Médio
+
 Plataformas preferidas: PC, PlayStation 5, Nintendo DS e Super Nintendo
+
 Jogos favoritos: Donkey Kong 1, 2 e 3
+
 Objetivos: competir, relaxar e alcançar rankings
+
 Comportamentos: prefere experiências desafiadoras
+
 Frustrações: interfaces confusas
 
-Persona 2 — Jonas
+**Persona 2 — Jonas**
 
 Idade: 32 anos
+
 Ocupação: estudante do Ensino Médio
+
 Plataformas preferidas: PC, dispositivos móveis e emuladores
+
 Jogos favoritos: GTA San Andreas, GTA V, Forza Horizon e Dragon Ball
+
 Objetivos: relaxar e dominar habilidades
+
 Comportamentos:
+
 Busca desafios constantes.
+
 Prefere partidas ranqueadas.
+
 Também aprecia experiências tranquilas.
+
 Joga em sessões curtas.
+
 Frustrações: pressão excessiva por competitividade
 
-Persona 3 — Ulissis
+**Persona 3 — Ulissis**
 
 Idade: 23 anos
+
 Ocupação: estudante do Ensino Médio
+
 Plataformas preferidas: PC, Super Nintendo, Xbox Series X/S e dispositivos móveis
+
 Jogos favoritos: FC Mobile e Dragon Ball Budokai
+
 Objetivos: relaxar, alcançar rankings e personalizar elementos do jogo
+
 Comportamentos:
+
 Busca desafios constantes.
+
 Valoriza a precisão dos controles.
+
 Gosta de desbloquear itens cosméticos.
+
 Frustrações:
+
 Bugs que prejudicam o desempenho.
+
 Tutoriais muito longos.
+
 Controles imprecisos.
 
-Persona 4 — Nielton
+**Persona 4 — Nielton**
 
 Idade: 42 anos
+
 Ocupação: estudante do Ensino Médio
+
 Plataformas preferidas: Mega Drive, Steam Deck, Web e Nintendo Switch
+
 Jogos favoritos: Super Metroid e Zelda para SNES
+
 Objetivos: relaxar, superar desafios e testar reflexos
+
 Comportamentos: mantém uma postura amigável e tranquila durante as partidas
+
 Frustrações: toxicidade entre jogadores, especialmente em jogos MMO
+
+---
+
 1.5. Atrativos do jogo
 
 O principal atrativo de Paralegram é ensinar conceitos de computação paralela de forma lúdica, por meio de atividades interativas que incentivam o aprendizado.
@@ -139,42 +214,54 @@ O principal atrativo de Paralegram é ensinar conceitos de computação paralela
 O jogo busca desenvolver:
 
 Raciocínio lógico: resolução de quebra-cabeças e elaboração de sequências de instruções.
+
 Planejamento estratégico: escolha de comandos e utilização eficiente dos recursos disponíveis.
+
 Pensamento computacional: decomposição de problemas em tarefas menores e organização de instruções.
+
 Conceitos de paralelismo: compreensão de como diferentes equipamentos podem executar tarefas simultaneamente.
+
 Eficiência: comparação entre soluções que utilizam diferentes quantidades de comandos, recursos e tempo.
 
 A aplicação prática da metodologia PCAM também integra a proposta educacional do jogo, auxiliando o jogador a compreender conceitos relacionados à programação paralela.
+
+---
 
 1.6. Fluxo do jogo
 
 A progressão ocorre conforme o jogador conclui as missões de cada fase. A resolução dos quebra-cabeças concede pontos que podem ser utilizados para desbloquear novos desafios até a etapa final.
 
-Fase 1 — Particionamento
+**Fase 1 — Particionamento**
 
 !Fase 1 — Classificação
 
-Fase 2 — Comunicação
+**Fase 2 — Comunicação**
 
 !Fase 2 — Transporte
 
-Fase 3 — Aglomeração
+**Fase 3 — Aglomeração**
 
 !Fase 3 — Agrupamento
 
-Fase 4 — Mapeamento
+**Fase 4 — Mapeamento**
 
 !Fase 4 — Carregar
+
+---
 
 2. Interface e interação
 
 Esta seção descreve os dispositivos de entrada e saída utilizados pelo jogador durante a execução do jogo.
+
+---
 
 2.1. Entradas
 
 O jogo utiliza teclado e mouse como dispositivos de entrada.
 
 O teclado permite navegar pelos menus e interagir com campos de texto. O mouse é utilizado principalmente para interagir com os elementos da interface e organizar os blocos de instruções no editor visual.
+
+---
 
 2.1.1. Teclado
 
@@ -183,7 +270,10 @@ O teclado permite selecionar opções dos menus e inserir informações nos camp
 Para orientar os comandos de navegação, são considerados os seguintes eixos:
 
 Eixo X: direção horizontal.
+
 Eixo Y: direção vertical.
+
+---
 
 2.1.2. Mouse
 
@@ -192,20 +282,32 @@ O mouse permite interagir com os quebra-cabeças por meio do editor de código e
 O jogador pode:
 
 Arrastar blocos de comandos para a área de edição.
+
 Organizar a sequência de instruções.
+
 Pressionar o botão de execução para executar e avaliar os comandos.
+
 Utilizar o botão Limpar para remover os blocos da área de edição e começar novamente.
+
+---
+
 2.2. Saídas
 
 As saídas do jogo são realizadas por meio de:
 
 Vídeo: monitor ou tela compatível.
+
 Áudio: caixas de som ou fones de ouvido.
+
+---
+
 2.2.1. Telas
 
 As telas do jogo são organizadas em estados, nos quais cada estado representa uma cena ou interface apresentada ao jogador. As transições entre as telas são determinadas pelos eventos e pelas ações executadas durante a partida.
 
 !Diagrama de fluxo das telas do jogo
+
+---
 
 2.2.2. Menus
 
@@ -216,15 +318,20 @@ O menu inicial apresenta as principais opções de navegação.
 As opções disponíveis são:
 
 Tutorial: apresenta informações para auxiliar o jogador a compreender a interface e as mecânicas.
+
 Iniciar Jogo: inicia o processo de uma nova partida. Informações adicionais podem ser solicitadas antes do início efetivo do jogo.
 
 Ao selecionar Tutorial, o jogador acessa uma tela com instruções sobre o editor de código em blocos e as principais interações disponíveis.
 
 !Menu de tutorial
 
+---
+
 3. Mecânica do jogo
 
 Esta seção descreve o comportamento dos personagens, dos blocos de código e dos elementos do cenário.
+
+---
 
 3.1. Mecânica básica
 
@@ -234,22 +341,36 @@ Após organizar os comandos, o jogador pressiona o botão de execução. O jogo 
 
 A pontuação depende da eficiência da solução: quanto melhor o jogador otimizar a sequência de comandos e os recursos utilizados, maior poderá ser a recompensa obtida ao final da fase.
 
+---
+
 3.1.1. Mecânica dos personagens
 
 Cada etapa apresenta personagens e equipamentos específicos, de acordo com a operação logística representada.
 
 Fase 1: operadores do centro de distribuição transportam caixas manualmente até os paletes.
+
 Fase 2: os operadores utilizam empilhadeiras para movimentar os paletes e carregar os caminhões.
+
 Fase 3: no pátio portuário, equipamentos especializados movimentam e organizam os contêineres conforme seus destinos.
+
 Fase 4: o jogador controla operações de guindastes portuários para transportar os contêineres até os navios.
+
+---
+
 3.1.2. Ações dos personagens
 
 Os blocos de instruções disponíveis variam conforme o personagem ou equipamento controlado.
 
 Operador: virar à esquerda, virar à direita, andar para frente e andar para trás.
+
 Empilhadeira: virar à esquerda, virar à direita, mover para frente e comunicar.
+
 Empilhadeira portuária: mover para cima, para baixo, para a direita e para a esquerda; pegar ou soltar objetos.
+
 Guincho portuário: pegar contêiner, soltar contêiner, ir ao navio e ir ao pátio.
+
+---
+
 3.1.3. Pontuação
 
 Cada fase pode conceder de uma a três estrelas, conforme o desempenho do jogador.
@@ -257,12 +378,16 @@ Cada fase pode conceder de uma a três estrelas, conforme o desempenho do jogado
 Cada estrela vale 100 pontos, totalizando até 300 pontos por fase.
 
 ⭐ 1 estrela: 100 pontos.
+
 ⭐⭐ 2 estrelas: 200 pontos.
+
 ⭐⭐⭐ 3 estrelas: 300 pontos.
 
 O objetivo é incentivar o jogador a buscar soluções mais eficientes. A conclusão do desafio com uma sequência menos otimizada pode resultar em uma pontuação menor, enquanto uma solução mais eficiente pode conceder a pontuação máxima.
 
 !Tela de pontuação ao final da fase
+
+---
 
 3.1.4. Temporizador
 
@@ -272,33 +397,37 @@ O temporizador permite observar o tempo de execução das operações e comparar
 
 !Cronômetro do jogo
 
+---
+
 3.2. Progressão do jogo
 
 A dificuldade aumenta progressivamente ao longo das fases. Os primeiros desafios introduzem as mecânicas básicas, enquanto as etapas seguintes exigem maior planejamento, organização e eficiência.
 
 Na terceira e na quarta fases, os desafios de organização e agrupamento exigem que o jogador identifique padrões de cores, organize os objetos e planeje os movimentos dos equipamentos.
 
+---
+
 3.2.1. Dificuldade das fases
 
-Fase 1 — Classificação
+**Fase 1 — Classificação**
 
 O centro de distribuição possui mercadorias embaladas, identificadas por cores que representam seus destinos.
 
 O jogador deve organizar as caixas em paletes de acordo com suas cores para que possam ser carregadas corretamente nos caminhões. Inicialmente, as caixas estão desorganizadas no galpão, exigindo que o operador planeje e execute os movimentos necessários.
 
-Fase 2 — Transporte
+**Fase 2 — Transporte**
 
 Após a classificação das mercadorias, o jogador deve estabelecer uma sequência de ações e comunicações entre as empilhadeiras para que cada carga seja alocada no caminhão correto.
 
 O planejamento deve evitar congestionamentos, colisões entre os equipamentos e erros na destinação dos produtos.
 
-Fase 3 — Organização dos contêineres
+**Fase 3 — Organização dos contêineres**
 
 Com os produtos acondicionados em contêineres, os caminhões os transportam até o pátio portuário.
 
 O jogador deve utilizar a empilhadeira de contêineres para organizar as cargas em pilhas conforme seus destinos, planejando os movimentos para evitar comandos desnecessários e reduzir o tempo de execução.
 
-Fase 4 — Carregamento do navio
+**Fase 4 — Carregamento do navio**
 
 O navio está atracado no porto e aguarda o carregamento. Os contêineres são transportados do pátio até os guindastes portuários, que realizam o içamento e a movimentação das cargas para o navio.
 
@@ -306,28 +435,41 @@ O jogador deve organizar os contêineres conforme a ordem de carregamento e cons
 
 Essa etapa explora a execução paralela de tarefas por diferentes guinchos, permitindo comparar o desempenho de soluções com diferentes configurações de recursos.
 
+---
+
 3.3. Condições de vitória
 
 Para avançar de fase, o jogador deve concluir o desafio proposto.
 
 Na última fase, o objetivo é carregar o navio utilizando os guinchos disponíveis e buscando a configuração mais eficiente possível para concluir a operação.
 
+---
+
 4. Detalhamento técnico
 
 Esta seção apresenta os requisitos de hardware e as ferramentas consideradas para o desenvolvimento e a execução do jogo.
+
+---
 
 4.1. Hardware
 
 Os requisitos de hardware e sistema operacional especificados para o projeto são:
 
 Sistema operacional: Windows 10 ou superior; Linux com Wine 9.0.
+
 Processador: 2 GHz, arquitetura x86-64.
+
 Memória RAM: mínimo de 4 GB.
+
 Armazenamento: 20 MB de espaço disponível.
+
 Monitor: resolução mínima de 1024 × 768, com 32 bits de cores.
+
 Dispositivos de entrada: teclado e mouse.
 
 Observação: os requisitos acima refletem as especificações documentadas para o projeto e não necessariamente representam requisitos validados da versão atual do jogo.
+
+---
 
 4.2. Software
 
@@ -345,6 +487,8 @@ GameMaker Studio
 
 Ambiente de desenvolvimento considerado para a implementação do jogo, incluindo a criação de cenários 2D, animações e interfaces.
 
+---
+
 4.3. Engine
 
 Como o projeto estabelece como requisito a utilização de gráficos bidimensionais (2D), foram estudadas alternativas de engine para atender às necessidades de desenvolvimento.
@@ -355,15 +499,21 @@ Durante o desenvolvimento, também foram criados protótipos utilizando PyGame. 
 
 Na versão final planejada, a lógica do jogo utiliza a linguagem de script do GameMaker Studio, enquanto o ambiente oferece recursos para a construção da interface e das mecânicas.
 
+---
+
 5. Arte e design
 
 Esta seção apresenta as principais referências artísticas e os elementos visuais planejados para o jogo.
+
+---
 
 5.1. Resumo do estilo
 
 O estilo visual combina formas estilizadas, elementos inspirados em objetos reais e características de desenho animado (cartoon).
 
 As texturas utilizam cores fortes e contrastantes. Os componentes gráficos são desenvolvidos em pixel art, buscando uma identidade visual consistente entre personagens, equipamentos e cenários.
+
+---
 
 5.2. Principais referências
 
@@ -387,9 +537,13 @@ The Legend of Zelda: A Link to the Past
 
 Referência para a perspectiva top-down e a apresentação visual dos cenários.
 
+---
+
 5.3. Concept art e sprites
 
 Esta seção apresenta referências visuais para personagens, máquinas, edifícios e outros elementos utilizados na composição do jogo.
+
+---
 
 5.3.1. Personagens
 
@@ -405,25 +559,29 @@ Operadores portuários
 
 !Operadores portuários
 
+---
+
 5.3.2. Cenários
 
 Os cenários são desenvolvidos conforme as características das etapas logísticas representadas em cada fase.
 
-Fase 1 — Classificação
+**Fase 1 — Particionamento**
 
 !Cenário da fase 1 — Classificação
 
-Fase 2 — Transporte
+**Fase 2 — Comunicação**
 
 !Cenário da fase 2 — Transporte
 
-Fase 3 — Agrupamento
+**Fase 3 — Aglomeração**
 
 !Cenário da fase 3 — Agrupamento
 
-Fase 4 — Carregamento
+**Fase 4 — Mapeamento**
 
 !Cenário da fase 4 — Carregamento
+
+---
 
 5.3.3. Personagens principais
 
@@ -433,19 +591,29 @@ A imagem abaixo apresenta a referência utilizada na construção visual desses 
 
 !Referência dos personagens principais
 
+---
+
 5.3.4. Objetos
 
 Os objetos utilizados variam de acordo com as necessidades de cada fase.
 
 Fase 1: caixas e paletes.
+
 Fase 2: caixas, paletes, paletes com caixas, empilhadeiras e caminhões.
+
 Fase 3: contêineres, empilhadeiras de contêineres e caminhões com contêineres.
+
 Fase 4: contêineres, guinchos, caminhões e caminhões com contêineres.
+
+---
+
 5.3.5. Mensagens de ajuda
 
 As mensagens de ajuda têm como objetivo esclarecer as tarefas de cada fase.
 
 Os textos devem apresentar os objetivos de forma clara, orientar o jogador sobre as interações disponíveis e incentivá-lo a explorar o cenário para encontrar soluções eficientes.
+
+---
 
 5.3.6. Editor de código
 
@@ -456,12 +624,16 @@ A área de edição apresenta os blocos de instruções disponíveis em um campo
 Os principais controles são:
 
 Executar: inicia a execução da sequência de instruções.
+
 Limpar: remove os blocos da área de edição.
+
 Ajuda: abre o menu de tutoriais, com instruções em texto e animações explicativas.
 
 O código montado na área de edição é executado conforme a ordem definida pela interface. A especificação original descreve essa ordem como de cima para baixo e da direita para a esquerda.
 
 !Editor de código em blocos
+
+---
 
 5.4. HUD (Heads-Up Display)
 
@@ -473,11 +645,13 @@ Pontuação
 
 Apresenta a quantidade de pontos acumulados nas fases concluídas.
 
-Cronômetro
+Temporizador
 
 !Indicador de tempo
 
 Apresenta o tempo, em minutos e segundos, utilizado na execução da sequência de comandos.
+
+---
 
 5.5. Efeitos visuais
 
@@ -486,7 +660,11 @@ O jogo contempla efeitos visuais destinados a tornar as ações e os movimentos 
 Entre os efeitos previstos estão:
 
 Borramento de movimento (Motion Blur): aplicado durante determinados movimentos para reforçar a percepção de deslocamento.
+
 Animações de cenário: movimentos de personagens secundários, empilhadeiras, guinchos e outros elementos das fases.
+
+---
+
 5.6. Animações
 
 O jogo utiliza animações para representar os movimentos dos personagens e equipamentos durante as partidas, além de transições entre fases e apresentações dos resultados no painel de pontuação.
