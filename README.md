@@ -5,33 +5,33 @@ Jogo educacional de quebra-cabeças que combina programação visual, raciocíni
 
 1. Introdução
 
-1.1. Resumo da história
+1.1. Resumo da História
 
-1.2. Visão geral da jogabilidade
+1.2. Visão Geral da Jogabilidade
 
-1.3. Gênero, semelhanças e diferenças
+1.3. Gênero, Semelhanças e Diferenças
 
-1.4. Público-alvo
+1.4. Público-Alvo
 
-1.5. Atrativos do jogo
+1.5. Atrativos do Jogo
 
-1.6. Fluxo do jogo
+1.6. Fluxo do Jogo
 
-2. Interface e interação
+2. Interface e Interação
 
 2.1. Entradas
 
 2.2. Saídas
 
-3. Mecânica do jogo
+3. Mecânica do Jogo
 
-3.1. Mecânica básica
+3.1. Mecânica Básica
 
-3.2. Progressão do jogo
+3.2. Progressão do Jogo
 
-3.3. Condições de vitória
+3.3. Condições de Vitória
 
-4. Detalhamento técnico
+4. Detalhamento Técnico
 
 4.1. Hardware
 
@@ -39,17 +39,17 @@ Jogo educacional de quebra-cabeças que combina programação visual, raciocíni
 
 4.3. Engine
 
-5. Arte e design
+5. Arte e Design
 
-5.1. Resumo do estilo
+5.1. Resumo do Estilo
 
-5.2. Principais referências
+5.2. Principais Referências
 
-5.3. Concept art e sprites
+5.3. Concept Art e Sprites
 
 5.4. HUD
 
-5.5. Efeitos visuais
+5.5. Efeitos Visuais
 
 5.6. Animações
 
@@ -64,22 +64,25 @@ Essas informações servem como referência para orientar as etapas de produçã
 
 ---
 
-1.1. Resumo da história
+1.1. Resumo da História
 
 O enredo se passa em um centro de expedição portuário, onde o personagem principal precisa gerenciar todas as etapas da operação logística, desde a origem dos produtos no centro de distribuição do fabricante até o carregamento dos contêineres nos navios.
 
 A operação é dividida em quatro etapas:
 
 Classificação: as mercadorias são organizadas no centro de distribuição. O funcionário responsável classifica as caixas conforme seus destinos e as agrupa em paletes.
+
 Transporte: após a separação, os paletes são carregados em caminhões e transportados até o porto.
+
 Organização dos contêineres: no porto, operadores utilizam empilhadeiras para organizar as mercadorias em contêineres, que são lacrados e transportados até o pátio de expedição.
+
 Carregamento dos navios: os contêineres são classificados no pátio conforme seus destinos e carregados nos navios atracados no cais por meio de guindastes portuários.
 
 Durante as operações, o jogador enfrenta desafios de lógica e quebra-cabeças que exigem planejamento estratégico para administrar os recursos, o espaço e o tempo disponíveis.
 
 ---
 
-1.2. Visão geral da jogabilidade
+1.2. Visão Geral da Jogabilidade
 
 A jogabilidade é inspirada em jogos de tabuleiro e quebra-cabeças. O jogador precisa resolver os desafios apresentados em cada fase descrevendo os movimentos dos personagens e equipamentos por meio de um editor de programação visual baseado em blocos.
 
@@ -99,7 +102,7 @@ Exemplo de interface de quebra-cabeças inspirado em Dungeon Class.
 
 ---
 
-1.3. Gênero, semelhanças e diferenças
+1.3. Gênero, Semelhanças e Diferenças
 
 Paralegram é um jogo do gênero puzzle, com perspectiva top-down (visão de cima), ambientado em um centro de distribuição e em instalações portuárias.
 
@@ -113,7 +116,7 @@ O jogo combina exploração de cenários, interação com objetos e resolução 
 
 ---
 
-1.4. Público-alvo
+1.4. Público-Alvo
 
 O jogo é destinado a um público amplo, desde adolescentes até adultos, incluindo pessoas que não jogam videogames regularmente.
 
@@ -207,7 +210,7 @@ Frustrações: toxicidade entre jogadores, especialmente em jogos MMO
 
 ---
 
-1.5. Atrativos do jogo
+1.5. Atrativos do Jogo
 
 O principal atrativo de Paralegram é ensinar conceitos de computação paralela de forma lúdica, por meio de atividades interativas que incentivam o aprendizado.
 
@@ -227,7 +230,7 @@ A aplicação prática da metodologia PCAM também integra a proposta educaciona
 
 ---
 
-1.6. Fluxo do jogo
+1.6. Fluxo do Jogo
 
 A progressão ocorre conforme o jogador conclui as missões de cada fase. A resolução dos quebra-cabeças concede pontos que podem ser utilizados para desbloquear novos desafios até a etapa final.
 
@@ -249,7 +252,7 @@ A progressão ocorre conforme o jogador conclui as missões de cada fase. A reso
 
 ---
 
-2. Interface e interação
+2. Interface e Interação
 
 Esta seção descreve os dispositivos de entrada e saída utilizados pelo jogador durante a execução do jogo.
 
@@ -327,13 +330,13 @@ Ao selecionar Tutorial, o jogador acessa uma tela com instruções sobre o edito
 
 ---
 
-3. Mecânica do jogo
+3. Mecânica do Jogo
 
 Esta seção descreve o comportamento dos personagens, dos blocos de código e dos elementos do cenário.
 
 ---
 
-3.1. Mecânica básica
+3.1. Mecânica Básica
 
 A mecânica principal consiste em posicionar blocos de código no editor visual para definir os movimentos que o personagem ou equipamento deverá executar no cenário.
 
@@ -343,7 +346,7 @@ A pontuação depende da eficiência da solução: quanto melhor o jogador otimi
 
 ---
 
-3.1.1. Mecânica dos personagens
+3.1.1. Mecânica dos Personagens
 
 Cada etapa apresenta personagens e equipamentos específicos, de acordo com a operação logística representada.
 
@@ -357,7 +360,7 @@ Fase 4: o jogador controla operações de guindastes portuários para transporta
 
 ---
 
-3.1.2. Ações dos personagens
+3.1.2. Ações dos Personagens
 
 Os blocos de instruções disponíveis variam conforme o personagem ou equipamento controlado.
 
@@ -399,7 +402,7 @@ O temporizador permite observar o tempo de execução das operações e comparar
 
 ---
 
-3.2. Progressão do jogo
+3.2. Progressão do Jogo
 
 A dificuldade aumenta progressivamente ao longo das fases. Os primeiros desafios introduzem as mecânicas básicas, enquanto as etapas seguintes exigem maior planejamento, organização e eficiência.
 
@@ -407,7 +410,7 @@ Na terceira e na quarta fases, os desafios de organização e agrupamento exigem
 
 ---
 
-3.2.1. Dificuldade das fases
+3.2.1. Dificuldade das Fases
 
 **Fase 1 — Classificação**
 
@@ -437,7 +440,7 @@ Essa etapa explora a execução paralela de tarefas por diferentes guinchos, per
 
 ---
 
-3.3. Condições de vitória
+3.3. Condições de Vitória
 
 Para avançar de fase, o jogador deve concluir o desafio proposto.
 
@@ -445,7 +448,7 @@ Na última fase, o objetivo é carregar o navio utilizando os guinchos disponív
 
 ---
 
-4. Detalhamento técnico
+4. Detalhamento Técnico
 
 Esta seção apresenta os requisitos de hardware e as ferramentas consideradas para o desenvolvimento e a execução do jogo.
 
@@ -501,13 +504,13 @@ Na versão final planejada, a lógica do jogo utiliza a linguagem de script do G
 
 ---
 
-5. Arte e design
+5. Arte e Design
 
 Esta seção apresenta as principais referências artísticas e os elementos visuais planejados para o jogo.
 
 ---
 
-5.1. Resumo do estilo
+5.1. Resumo do Estilo
 
 O estilo visual combina formas estilizadas, elementos inspirados em objetos reais e características de desenho animado (cartoon).
 
@@ -515,7 +518,7 @@ As texturas utilizam cores fortes e contrastantes. Os componentes gráficos são
 
 ---
 
-5.2. Principais referências
+5.2. Principais Referências
 
 O desenvolvimento visual do jogo utiliza referências de jogos que apresentam perspectivas, interfaces ou mecânicas semelhantes às propostas para Paralegram.
 
@@ -539,7 +542,7 @@ Referência para a perspectiva top-down e a apresentação visual dos cenários.
 
 ---
 
-5.3. Concept art e sprites
+5.3. Concept Art e Sprites
 
 Esta seção apresenta referências visuais para personagens, máquinas, edifícios e outros elementos utilizados na composição do jogo.
 
@@ -583,7 +586,7 @@ Os cenários são desenvolvidos conforme as características das etapas logísti
 
 ---
 
-5.3.3. Personagens principais
+5.3.3. Personagens Principais
 
 Os personagens principais são representados em pixel art e incluem operadores portuários equipados com os recursos necessários para desempenhar as funções controladas pelo jogador.
 
@@ -607,7 +610,7 @@ Fase 4: contêineres, guinchos, caminhões e caminhões com contêineres.
 
 ---
 
-5.3.5. Mensagens de ajuda
+5.3.5. Mensagens de Ajuda
 
 As mensagens de ajuda têm como objetivo esclarecer as tarefas de cada fase.
 
@@ -615,7 +618,7 @@ Os textos devem apresentar os objetivos de forma clara, orientar o jogador sobre
 
 ---
 
-5.3.6. Editor de código
+5.3.6. Editor de Código
 
 O editor de código é a principal interface para a elaboração das soluções dos desafios.
 
@@ -653,7 +656,7 @@ Apresenta o tempo, em minutos e segundos, utilizado na execução da sequência 
 
 ---
 
-5.5. Efeitos visuais
+5.5. Efeitos Visuais
 
 O jogo contempla efeitos visuais destinados a tornar as ações e os movimentos mais claros e dinâmicos.
 
