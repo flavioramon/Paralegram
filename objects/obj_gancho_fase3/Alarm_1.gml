@@ -1,0 +1,2 @@
+alto = true;
+opcao = "";

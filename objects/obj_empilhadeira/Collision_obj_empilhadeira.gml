@@ -1,0 +1,1 @@
+obj_botoes.alarm[1] = 1;

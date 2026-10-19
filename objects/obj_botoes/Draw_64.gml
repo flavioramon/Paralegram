@@ -1,0 +1,1 @@
+if (!global.menu_inicio_fase && !global.menu_fim_fase) draw_self();
