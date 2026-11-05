@@ -90,13 +90,13 @@ O jogador organiza os blocos de instruções para criar uma sequência de comand
 
 Referência do editor de código em blocos:
 
-!Editor de código em blocos
+![Editor de código em blocos](https://eforense.com.br/static/bloco_codigo.png)
 
 A dinâmica das fases é baseada na resolução de missões. O jogador utiliza as informações adquiridas durante a partida para encontrar soluções eficientes para os desafios propostos.
 
 A interface de quebra-cabeças tem como referência o jogo Dungeon Class.
 
-!Referência de interface do Dungeon Class
+![Referência de interface do Dungeon Class](https://eforense.com.br/static/dungeon_class.png)
 
 Exemplo de interface de quebra-cabeças inspirado em Dungeon Class.
 
@@ -108,7 +108,7 @@ Paralegram é um jogo do gênero puzzle, com perspectiva top-down (visão de cim
 
 A direção visual utiliza pixel art para representar personagens, equipamentos e cenários. Entre as referências visuais estão jogos clássicos como The Legend of Zelda: A Link to the Past.
 
-!Referência visual de The Legend of Zelda: A Link to the Past
+![Referência visual de The Legend of Zelda: A Link to the Past](https://eforense.com.br/static/The-Legend-of-Zelda-A-Link-to-the-Past.png)
 
 Referência de perspectiva e jogabilidade top-down.
 
@@ -236,19 +236,19 @@ A progressão ocorre conforme o jogador conclui as missões de cada fase. A reso
 
 **Fase 1 — Particionamento**
 
-!Fase 1 — Classificação
+![Fase 1 — Classificação](https://eforense.com.br/static/1_fase.png)
 
 **Fase 2 — Comunicação**
 
-!Fase 2 — Transporte
+![Fase 2 — Transporte](https://eforense.com.br/static/2_fase.png)
 
 **Fase 3 — Aglomeração**
 
-!Fase 3 — Agrupamento
+![Fase 3 — Agrupamento](https://eforense.com.br/static/3_fase.png)
 
 **Fase 4 — Mapeamento**
 
-!Fase 4 — Carregar
+![Fase 4 — Carregar](https://eforense.com.br/static/4_fase.png)
 
 ---
 
@@ -308,7 +308,7 @@ Vídeo: monitor ou tela compatível.
 
 As telas do jogo são organizadas em estados, nos quais cada estado representa uma cena ou interface apresentada ao jogador. As transições entre as telas são determinadas pelos eventos e pelas ações executadas durante a partida.
 
-!Diagrama de fluxo das telas do jogo
+![Diagrama de fluxo das telas do jogo](https://eforense.com.br/static/fluxo_jogo.png)
 
 ---
 
@@ -316,7 +316,7 @@ As telas do jogo são organizadas em estados, nos quais cada estado representa u
 
 O menu inicial apresenta as principais opções de navegação.
 
-!Menu inicial
+![Menu inicial](https://eforense.com.br/static/menu.png)
 
 As opções disponíveis são:
 
@@ -326,7 +326,7 @@ Iniciar Jogo: inicia o processo de uma nova partida. Informações adicionais po
 
 Ao selecionar Tutorial, o jogador acessa uma tela com instruções sobre o editor de código em blocos e as principais interações disponíveis.
 
-!Menu de tutorial
+![Menu de tutorial](https://eforense.com.br/static/menu_tutorial.png)
 
 ---
 
@@ -388,7 +388,7 @@ Cada estrela vale 100 pontos, totalizando até 300 pontos por fase.
 
 O objetivo é incentivar o jogador a buscar soluções mais eficientes. A conclusão do desafio com uma sequência menos otimizada pode resultar em uma pontuação menor, enquanto uma solução mais eficiente pode conceder a pontuação máxima.
 
-!Tela de pontuação ao final da fase
+![Tela de pontuação ao final da fase](https://eforense.com.br/static/pontos_fase1-1.png)
 
 ---
 
@@ -398,7 +398,7 @@ Na quarta fase, o jogador deve executar uma sequência de tarefas no menor tempo
 
 O temporizador permite observar o tempo de execução das operações e comparar estratégias com diferentes quantidades de guinchos. Dessa forma, o jogador pode explorar, na prática, os efeitos da execução paralela sobre o desempenho da tarefa.
 
-!Cronômetro do jogo
+![Cronômetro do jogo](https://eforense.com.br/static/cronometro.png)
 
 ---
 
@@ -480,13 +480,13 @@ As ferramentas utilizadas ou avaliadas durante o desenvolvimento incluem:
 
 PyGame
 
-!Logotipo do PyGame
+![Logotipo do PyGame](https://eforense.com.br/static/pygame.png)
 
 Biblioteca utilizada na criação de protótipos e na experimentação de mecânicas de jogo com Python.
 
 GameMaker Studio
 
-!Logotipo do GameMaker Studio
+![Logotipo do GameMaker Studio](https://eforense.com.br/static/game_maker.png)
 
 Ambiente de desenvolvimento considerado para a implementação do jogo, incluindo a criação de cenários 2D, animações e interfaces.
 
@@ -524,19 +524,19 @@ O desenvolvimento visual do jogo utiliza referências de jogos que apresentam pe
 
 Dungeon Class
 
-!Referência de Dungeon Class
+![Referência de Dungeon Class](https://eforense.com.br/static/dungeon_class.png)
 
 Referência para a organização da interface e a apresentação dos desafios de quebra-cabeças.
 
 Game Blockly
 
-!Referência de Game Blockly
+![Referência de Game Blockly](https://eforense.com.br/static/game_blockly.png)
 
 Referência para a utilização de programação visual e blocos de instruções.
 
 The Legend of Zelda: A Link to the Past
 
-!Referência de The Legend of Zelda: A Link to the Past
+![Referência de The Legend of Zelda: A Link to the Past](https://eforense.com.br/static/The-Legend-of-Zelda-A-Link-to-the-Past.png)
 
 Referência para a perspectiva top-down e a apresentação visual dos cenários.
 
@@ -556,11 +556,11 @@ O projeto contempla operadores do centro de distribuição e operadores portuár
 
 Operadores do centro de distribuição
 
-!Operadores do centro de distribuição
+![Operadores do centro de distribuição](https://eforense.com.br/static/operadores_centro_distribuicao.png)
 
 Operadores portuários
 
-!Operadores portuários
+![Operadores portuários](https://eforense.com.br/static/operadores_portuarios.png)
 
 ---
 
@@ -570,19 +570,19 @@ Os cenários são desenvolvidos conforme as características das etapas logísti
 
 **Fase 1 — Particionamento**
 
-!Cenário da fase 1 — Classificação
+![Cenário da fase 1 — Classificação](https://eforense.com.br/static/1_fase_classifica%C3%A7%C3%A3o.png)
 
 **Fase 2 — Comunicação**
 
-!Cenário da fase 2 — Transporte
+![Cenário da fase 2 — Transporte](https://eforense.com.br/static/2_fase_transporte.png)
 
 **Fase 3 — Aglomeração**
 
-!Cenário da fase 3 — Agrupamento
+![Cenário da fase 3 — Agrupamento](https://eforense.com.br/static/4_fase_agrupamento.png)
 
 **Fase 4 — Mapeamento**
 
-!Cenário da fase 4 — Carregamento
+![Cenário da fase 4 — Carregamento](https://eforense.com.br/static/5_fase_carga.png)
 
 ---
 
@@ -592,7 +592,7 @@ Os personagens principais são representados em pixel art e incluem operadores p
 
 A imagem abaixo apresenta a referência utilizada na construção visual desses personagens.
 
-!Referência dos personagens principais
+![Referência dos personagens principais](https://eforense.com.br/static/operadores_portuarios.png)
 
 ---
 
@@ -634,7 +634,7 @@ Ajuda: abre o menu de tutoriais, com instruções em texto e animações explica
 
 O código montado na área de edição é executado conforme a ordem definida pela interface. A especificação original descreve essa ordem como de cima para baixo e da direita para a esquerda.
 
-!Editor de código em blocos
+![Editor de código em blocos](https://eforense.com.br/static/editor_codigo.png)
 
 ---
 
@@ -644,13 +644,13 @@ O HUD reúne informações importantes para o acompanhamento do desempenho duran
 
 Pontuação
 
-!Indicador de pontos
+![Indicador de pontos](https://eforense.com.br/static/pontos.png)
 
 Apresenta a quantidade de pontos acumulados nas fases concluídas.
 
 Temporizador
 
-!Indicador de tempo
+![Indicador de tempo](https://eforense.com.br/static/cronometro.png)
 
 Apresenta o tempo, em minutos e segundos, utilizado na execução da sequência de comandos.
 
